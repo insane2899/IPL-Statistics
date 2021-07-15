@@ -1,5 +1,6 @@
 package com.iplstats.base.controller;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,6 +9,7 @@ import com.iplstats.base.model.Team;
 import com.iplstats.base.repository.MatchRepository;
 import com.iplstats.base.repository.TeamRepository;
 
+@CrossOrigin
 @RestController
 public class TeamController {
 	
